@@ -1,0 +1,149 @@
+<div class="container py-5">
+  <div class="text-center mb-5">
+    <h1 class="fw-bold">Antonio Valverde</h1>
+    <h3 class="highlight">Desarrollador Web</h3>
+    <!-- <p>Angular, Spring Boot - Docker</p> -->
+  </div>
+  <!--Sobre mí -->
+  <div>
+    <div class="section-title">Sobre mí</div>
+    <p>Soy un joven con aspiraciones claras,un aficionado al deporte, quiero conseguir
+      empleo en el sector del
+      desarrollo web para poder ampliar mi experiencia y conocimientos en el sector.</p>
+  </div>
+  <!-- Educacion / Cursos -->
+  <div>
+    <div class="section-title">Educación</div>
+    <div class="row g-3">
+      <div class="col-md-6">
+        <div class="card card-custom p-3">
+          <h5 class="highlight">CFGS DAW</h5>
+          <p>2023 - 2025<br>IES Almudeyne</p>
+          <button class="btn btn-outline-success btn-sm mt-2"
+            (click)="abrirModal('CFGS DAW', 'CFGS Desarrollo de Aplicaciones Web en IES Almudeyne. Formación en Angular, Spring Boot, bases de datos relacionales, uso de Git, desarrollo de API REST, despliegue con Docker y documentación de proyectos.')">Más
+            info</button>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card card-custom p-3">
+          <h5 class="highlight">Bachillerato</h5>
+          <p>2020 - 2022<br>IES Maestro Diego Llorente</p>
+          <button class="btn btn-outline-success btn-sm mt-2"
+            (click)="abrirModal('Bachillerato', 'Bachillerato cursado en IES Maestro Diego Llorente, formación general en matemáticas, informática, y competencias clave para estudios superiores.')">Más
+            info</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- PROYECTOS  -->
+  <div>
+    <div class="section-title">Proyectos</div>
+    <div class="row g-3">
+      <div class="col-md-4">
+        <div class="card card-custom p-3">
+          <div class="tech-icons d-flex mb-2">
+            <img src="https://angular.io/assets/images/logos/angular/angular.png" width="30">
+            <img src="https://cdn.worldvectorlogo.com/logos/spring-3.svg" width="30">
+            <img src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png" width="30">
+          </div>
+          <h5>Gestión de Reservas</h5>
+          <p>Angular - Spring Boot - Docker - MySQL</p>
+          <button class="btn btn-outline-success btn-sm mt-2"
+            (click)="abrirModal('Gestión de Reservas', 'Aplicación web completa para el institu IES Almudeyne, sirve para la gestión de reservas de aulas y materiales con Angular y Spring Boot. Integración con base de datos MySQL y despliegue en contenedores Docker.')">Más
+            info</button>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card card-custom p-3">
+          <div class="tech-icons d-flex mb-2"> 
+            <img src="https://cdn.worldvectorlogo.com/logos/spring-3.svg" width="30">
+
+          </div>
+          <h5>Formulario de registro</h5>
+          <p>Spring Boot</p>
+          <button class="btn btn-outline-success btn-sm mt-2"
+            (click)="abrirModal('Formulario de registro', 'Formulario web conectado al backend de Spring Boot para registrar usuarios y guardarlos en base de datos. Incluye validaciones básicas y pruebas de integración.')">Más
+            info</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- EXPERENCIA -->
+  <div>
+    <div class="section-title">Experiencia</div>
+    <!-- INFORMATICA -->
+    <div class="subsection-title mt-4">Informática</div>
+    <div class="row g-3">
+      <div class="col-md-6">
+        <div class="card card-custom p-3">
+          <h5>NTT DATA</h5>
+          <p>10/2024 - 06/2025<br><small>Sevilla, España</small></p>
+          <button class="btn btn-outline-success btn-sm mt-2"
+            (click)="abrirModal('Practicas NTTDATA', 'En NTT DATA he aprendido las tecnologias de Spring Boot y sus Spring Framework y tambien Hibernate eso principalmente en el back, pero tambien en el Front he visto SAPUI5, JavaScript, Css y Bosstrap entre otras cosas, como los ficheros .NET y C#.')">Más
+            info</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONSTRUCCION -->
+
+    <div class="subsection-title mt-4">Construcción</div>
+    <div class="row g-3">
+      <div class="col-md-6">
+        <div class="card card-custom p-3">
+          <h5>Golden Sun Shine</h5>
+          <p>11/2022 – 06/2023<br><small>Sevilla,España </small></p>
+          <button class="btn btn-outline-success btn-sm mt-2"
+            (click)="abrirModal('Encofrador de segunda', 'Empece como peon hasta llegar a oficial de segunda, haciendo pilares, techos y muros de hormigón')">Más
+            info</button>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="row g-3">
+      <div class="col-md-6">
+        <div class="card card-custom p-3">
+          <h5>Bautech AG</h5>
+          <p>06/2024 - 09/2024<br><small>Basilea, Suiza</small></p>
+          <button class="btn btn-outline-success btn-sm mt-2"
+            (click)="abrirModal('Encofrador', 'En suiza se trabaja de otra forma, estuve en un equipo de desmpntrar estructuras de encofrado mayoritariamente.')">Más
+            info</button>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- NATACION -->
+
+    <div class="subsection-title mt-4">Monitor de Natación</div>
+    <div class="row g-3">
+      <div class="col-md-6">
+        <div class="card card-custom p-3">
+          <h5>Ayuntamiento Los palacios y Villafranca</h5>
+          <p>07/2022 – 09/2022</p>
+          <button class="btn btn-outline-success btn-sm mt-2"
+            (click)="abrirModal('Monitor de natacion', 'Enseñanza básica y avanzada de natación a diferentes niños desde los 2-3 años a los 11-12 años')">Más
+            info</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Bootstrap -->
+<div class="modal fade" id="infoModal" tabindex="-1" aria-labelledby="infoModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content bg-dark text-white border-success">
+      <div class="modal-header">
+        <h5 class="modal-title text-success" id="infoModalLabel">{{ modalTitulo }}</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+        {{ modalContenido }}
+      </div>
+    </div>
+  </div>
+</div>
